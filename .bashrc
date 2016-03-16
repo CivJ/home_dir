@@ -2,10 +2,7 @@
 export EDITOR=/Applications/Emacs.app/Contents/MacOS/bin/emacsclient
 
 #set this for docker.bash script
-export MACHINE_NAME='dev'
-
-export PATH=$PATH:/usr/local/sbin:~/npm/bin:~/tools/bin #npm for hackathon
-#export KIJI_HOME='/Users/jcrimmins/Downloads/kiji-bento-buri/bin/..' #hackathon
+# export MACHINE_NAME='dev'	
 
 source ~/git-completion.bash
 
@@ -43,8 +40,8 @@ alias be='bundle exec'
 alias bc='bundle console'
 alias bsu='ber spec:unit'
 
-alias ncc='npm cache clean'
-alias fuckingnpm='rm -rf ./node_modules && ncc && npm i'
+# alias ncc='npm cache clean'    
+# alias fuckingnpm='rm -rf ./node_modules && ncc && npm i'
 
 # Change open file limit
 # ulimit -n 10000		       
